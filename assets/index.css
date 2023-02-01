@@ -93,8 +93,8 @@
 
 .five-star-rating__star {
   display: inline-block;
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   background-image: url(img/white-star.svg);
   background-repeat: no-repeat;
   background-size: contain;
