@@ -104,3 +104,18 @@
 .five-star-rating__star:first-child {
   margin-left: 0;
 }
+
+/* block WHITE-FRAME */
+
+.white-frame {
+  min-width: 52px;
+  min-height: 57px;
+  display: inline-block;
+  background-color: transparent;
+  border: 4px solid var(--white-color);
+  cursor: pointer;
+}
+
+.white-frame--padding {
+  padding: 19px 45px;
+}
