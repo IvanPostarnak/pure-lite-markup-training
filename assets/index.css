@@ -1,8 +1,33 @@
 :root {
-  --Open-Sans: 'Open Sans', sans-serif;
-  --Michroma: 'Michroma', sans-serif;
-  --Roboto: 'Roboto', sans-serif;
+  --Michroma-font: 'Michroma', sans-serif;
+  --Roboto-font: 'Roboto', sans-serif;
+  --Open-Sans-font: 'Open Sans', sans-serif;
 
-  --white: #ffffff;
-  --black: #000000;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --landing-width: 1440px;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-holder {
+  width: 100%;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-family: var(--Michroma-font);
+}
+
+.page-holder__landing {
+  width: 100%;
+  max-width: var(--landing-width);
+  background-color: transparent;
+  color: inherit;
+  margin: 0 auto;
 }
