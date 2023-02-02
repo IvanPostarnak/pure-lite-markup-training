@@ -185,6 +185,19 @@
 }
 
 
+/* block COMMON-TITLE */
+
+.common-title {
+  font-family: var(--Michroma-font);
+  font-weight: 400;
+  font-size: 66.67px;
+  font-style: italic;
+  color: var(--white-color);
+  display: inline-block;
+  text-align: center;
+}
+
+
 /* FIFTH-SLIDE */
 
 .fifth-slide {
@@ -268,14 +281,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.seventh-slide__header {
-  font-family: var(--Michroma-font);
-  font-weight: 400;
-  font-size: 66.67px;
-  font-style: italic;
-  color: var(--white-color);
 }
 
 .seventh-slide__reviews {
