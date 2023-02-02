@@ -147,6 +147,42 @@
 }
 
 
+/* block CUSTOMER-REVIEW*/
+
+.customer-review {
+  width: 100%;
+  max-width: 815px;
+  max-height: 135px;
+}
+
+.customer-review__customer-name {
+  font-family: var(--Michroma-font);
+  font-weight: 400;
+  font-size: 33.33px;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.customer-review__publish-time {
+  font-family: var(--Michroma-font);
+  font-weight: 400;
+  font-size: 16.6px;
+  color: var(--white-color);
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.customer-review__message {
+  font-family: var(--Roboto-font);
+  font-weight: 300;
+  font-size: 20.83px;
+  color: var(--white-color);
+  overflow: hidden;
+}
+
+
 /* FIFTH-SLIDE */
 
 .fifth-slide {
