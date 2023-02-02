@@ -294,6 +294,7 @@
   text-decoration-thickness: 3px;
   width: 100%;
   max-width: 210px;
+  cursor: pointer;
 }
 
 .fourth-slide__second-row {
