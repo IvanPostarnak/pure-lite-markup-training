@@ -1,0 +1,12 @@
+@import url(amount-controller__increase-amount/amount-controller__increase-amount.css);
+@import url(amount-controller__decrease-amount/amount-controller__decrease-amount.css);
+@import url(amount-controller__current-amount/amount-controller__current-amount.css);
+
+.amount-controller {
+  width: 100%;
+  max-width: 200px;
+  max-height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

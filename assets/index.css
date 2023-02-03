@@ -1,3 +1,5 @@
+@import url(blocks/amount-controller/amount-controller.css);
+
 :root {
   --Michroma-font: 'Michroma', sans-serif;
   --Roboto-font: 'Roboto', sans-serif;
@@ -33,37 +35,6 @@
   background-color: transparent;
   color: inherit;
   margin: 0 auto;
-}
-
-
-/* block AMOUNT-CONTROLLER */
-
-.amount-controller {
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.amount-controller__increase-amount {
-  background-image: url(img/Increase_amount.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-.amount-controller__decrease-amount {
-  background-image: url(img/Decrease_amount.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-.amount-controller__current-amount {
-  margin: 0 14px 0 10px;
-  font-family: var(--Michroma-font);
-  font-size: 45.46px;
-  font-weight: 400;
 }
 
 
@@ -548,6 +519,7 @@
 .second-slide__price-and-amount-controller {
   width: 100%;
   height: 80px;
+  display: inline-block;
   display: flex;
   justify-content: space-between;
   align-items: center;
