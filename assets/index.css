@@ -8,6 +8,7 @@
 
   --landing-width: 1440px;
 
+  --average-layer: 500;
   --top-layer: 1000;
 }
 
@@ -386,6 +387,7 @@
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
+  z-index: var(--top-layer)
 }
 
 .intro-slide__description {
@@ -938,4 +940,38 @@
   color: var(--white-color);
   text-decoration-thickness: 2px;
   text-decoration-color: #c4c4c4;
+}
+
+/* SCRATCHES */
+
+.scratch {
+  position: absolute;
+  z-index: var(--average-layer);
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.scratch--content-holder {
+  width: 319px;
+  height: 53px;
+  background-image: url(img/slide_1_scratch_1.png);
+  top: 0;
+  right: 215px;
+}
+
+.scratch-1--intro-slide {
+  width: 115px;
+  height: 260px;
+  background-image: url(img/slide_1_scratch_2.png);
+  bottom: 150px;
+  right: 50px;
+}
+
+.scratch-1--intro-slide {
+  width: 478px;
+  height: 68px;
+  background-image: url(img/slide_1_scratch_3.png);
+  bottom: 0;
+  left: 0;
 }
