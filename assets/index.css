@@ -1,3 +1,4 @@
+@import url(blocks/title/title.css);
 @import url(blocks/amount-controller/amount-controller.css);
 
 :root {
@@ -36,43 +37,6 @@
   color: inherit;
   margin: 0 auto;
 }
-
-
-/* block TITLE */
-
-.title {
-  
-}
-
-.title-item {
-  width: 521px;
-  height: 93px;
-  background-color: transparent;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.black-word {
-  background-image: url(img/title-black-word.png);
-}
-
-.white-word {
-  background-image: url(img/title-white-word.png);
-}
-
-.title--position-sixth-slide {
-  top: 160px;
-  left: 125px;
-  position: absolute;
-  z-index: var(--top-layer);
-}
-
-.title-item--size-footer {
-  width: 420px;
-  height: 50px;
-}
-
 
 /* block product-card */
 
@@ -734,6 +698,13 @@
   margin-top: 30px;
 }
 
+.title--position-sixth-slide {
+  top: 160px;
+  left: 125px;
+  position: absolute;
+  z-index: var(--top-layer);
+}
+
 /* SEVENTH-SLIDE */
 
 .seventh-slide {
@@ -922,6 +893,12 @@
   text-decoration-thickness: 2px;
   text-decoration-color: #c4c4c4;
 }
+
+.title__item--size-footer {
+  width: 420px;
+  height: 50px;
+}
+
 
 /* SCRATCHES */
 
