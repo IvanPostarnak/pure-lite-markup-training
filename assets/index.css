@@ -606,6 +606,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  z-index: var(--top-layer);
 }
 
 .third-slide__product-cards {
@@ -992,4 +993,20 @@
   background-image: url(img/slide_2_scratch_2.png);
   bottom: 20px;
   left: 0;
+}
+
+.scratch-1--third-slide {
+  width: 165px;
+  height: 270px;
+  background-image: url(img/slide_3_scratch_1.png);
+  top: 220px;
+  left: 83px;
+}
+
+.scratch-2--third-slide {
+  width: 155px;
+  height: 373px;
+  background-image: url(img/slide_3_scratch_2.png);
+  bottom: 10px;
+  right: 68px;
 }
