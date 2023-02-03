@@ -89,6 +89,18 @@
   background-image: url(img/title-white-word.png);
 }
 
+.title--position-sixth-slide {
+  top: 160px;
+  left: 125px;
+  position: absolute;
+  z-index: var(--top-layer);
+}
+
+.title-item--size-footer {
+  width: 420px;
+  height: 50px;
+}
+
 
 /* block product-card */
 
@@ -722,13 +734,6 @@
   position: relative;
 }
 
-.title--position-sixth-slide {
-  top: 160px;
-  left: 125px;
-  position: absolute;
-  z-index: var(--top-layer);
-}
-
 .sixth-slide__inner {
   width: 450px;
   height: 360px;
@@ -849,4 +854,88 @@
   font-weight: 400;
   font-size: 20.91px;
   color: var(--white-color);
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2B2B2B;
+}
+
+.footer__slide {
+  width: 100%;
+  max-width: var(--landing-width);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__content {
+  width: 100%;
+  max-width: 1175px;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__about-column {
+  width: 350px;
+  height: 100%;
+}
+
+.footer__title {
+  font-family: var(--Michroma-font);
+  font-weight: 400;
+  font-size: 33.33px;
+  color: var(--white-color);
+}
+
+.footer__about-paragraph {
+  margin-top: 25px;
+  font-family: var(--Roboto-font);
+  font-weight: 300;
+  font-size: 20.83px;
+  line-height: 20.83px;
+  color: var(--white-color);
+}
+
+.footer__email-link {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__info-column {
+  width: 255px;
+  height: 100%;
+}
+
+.footer__list-of-links {
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.footer__list-item {
+  margin-top: 15px;
+}
+
+.footer__one-link {
+  font-family: var(--Roboto-font);
+  font-weight: 300;
+  font-size: 20.83px;
+  line-height: 20.83px;
+  color: var(--white-color);
+  text-decoration-thickness: 2px;
+  text-decoration-color: #c4c4c4;
 }
