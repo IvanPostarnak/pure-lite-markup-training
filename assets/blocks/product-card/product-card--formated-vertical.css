@@ -1,0 +1,10 @@
+@import url(product-card__picture/product-card__picture--formated-vertical.css);
+@import url(product-card__info/product-card__info--formated-vertical.css);
+
+
+.product-card--formated-vertical {
+  width: 288px;
+  height: 535px;
+  position: relative;
+  display: block;
+}

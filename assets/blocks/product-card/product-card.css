@@ -1,0 +1,15 @@
+@import url(product-card__info/product-card__info.css);
+@import url(product-card__picture/product-card__picture.css);
+@import url(product-card__name/product-card__name.css);
+@import url(product-card__statistics/product-card__statistics.css);
+@import url(product-card__reviews/product-card__reviews.css);
+
+
+.product-card {
+  width: 570px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

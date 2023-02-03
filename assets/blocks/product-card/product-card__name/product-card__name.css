@@ -1,0 +1,7 @@
+.product-card__name {
+  font-family: 'Michroma', sans-serif;;
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+}
