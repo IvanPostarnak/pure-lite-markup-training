@@ -1,0 +1,9 @@
+.customer-review__message {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20.83px;
+  color: white;
+  line-height: 1em;
+  max-height: 2em;
+  overflow: hidden;
+}

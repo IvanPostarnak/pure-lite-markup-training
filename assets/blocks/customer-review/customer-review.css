@@ -1,0 +1,9 @@
+@import url(customer-review__customer-name/customer-review__customer-name.css);
+@import url(customer-review__publish-time/customer-review__publish-time.css);
+@import url(customer-review__message/customer-review__message.css);
+
+.customer-review {
+  width: 100%;
+  max-width: 815px;
+  display: block;
+}

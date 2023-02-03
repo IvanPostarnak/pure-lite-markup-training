@@ -3,6 +3,7 @@
 @import url(blocks/product-card/product-card--second-slide.css);
 @import url(blocks/product-card/product-card--formated-vertical.css);
 @import url(blocks/five-star-rating/five-star-rating.css);
+@import url(blocks/customer-review/customer-review.css);
 @import url(blocks/amount-controller/amount-controller.css);
 
 :root {
@@ -42,30 +43,6 @@
   margin: 0 auto;
 }
 
-/* block FIVE-STAR-RATING */
-/* 
-.five-star-rating {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.five-star-rating__star {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  background-image: url(img/white-star.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 10px;
-}
-
-.five-star-rating__star:first-child {
-  margin-left: 0;
-} */
-
-/* block WHITE-FRAME */
-
 .white-frame {
   min-width: 52px;
   min-height: 57px;
@@ -78,46 +55,7 @@
   padding: 19px 45px;
 }
 
-
-/* block CUSTOMER-REVIEW*/
-
-.customer-review {
-  width: 100%;
-  max-width: 815px;
-  display: block;
-}
-
-.customer-review__customer-name {
-  font-family: var(--Michroma-font);
-  font-weight: 400;
-  font-size: 33.33px;
-  color: var(--white-color);
-  margin-bottom: 20px;
-}
-
-.customer-review__publish-time {
-  font-family: var(--Michroma-font);
-  font-weight: 400;
-  font-size: 16.6px;
-  color: var(--white-color);
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 20px;
-  margin-bottom: 25px;
-}
-
-.customer-review__message {
-  font-family: var(--Roboto-font);
-  font-weight: 300;
-  font-size: 20.83px;
-  color: var(--white-color);
-  line-height: 1em;
-  max-height: 2em;
-  overflow: hidden;
-}
-
-
-/* block COMMON-TITLE */
+/* */
 
 .common-title {
   font-family: var(--Michroma-font);

@@ -1,0 +1,10 @@
+.customer-review__publish-time {
+  font-family: 'Michroma', sans-serif;
+  font-weight: 400;
+  font-size: 16.6px;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
