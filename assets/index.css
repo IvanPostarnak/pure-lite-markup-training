@@ -4,6 +4,7 @@
 @import url(blocks/product-card/product-card--formated-vertical.css);
 @import url(blocks/five-star-rating/five-star-rating.css);
 @import url(blocks/customer-review/customer-review.css);
+@import url(blocks/header/header.css);
 @import url(blocks/amount-controller/amount-controller.css);
 
 :root {
@@ -71,53 +72,6 @@
   display: block;
   font-size: 59.04px;
   line-height: 1;
-}
-
-/* block HEADER */
-
-.header {
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-navigation {
-  width: 500px;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-navigation__link-wrapper {
-  width: 150px;
-  height: 100%;
-  text-align: center;
-}
-
-.header-navigation__link {
-  font-family: var(--Michroma-font);
-  line-height: 75px;
-  font-weight: 400;
-  font-size: 22px;
-  color: var(--white-color);
-  text-decoration: none;
-  cursor: pointer;
-  transition-duration: 0.1s;
-}
-
-.header-navigation__link:hover {
-  font-size: 26px;
-}
-
-.header__contact-us-link {
-  font-family: var(--Michroma-font);
-  font-weight: 400;
-  font-size: 22px;
-  color: var(--white-color);
-  cursor: pointer;
 }
 
 /* block LOGO */

@@ -1,0 +1,14 @@
+.header__one-link {
+  font-family: 'Michroma', sans-serif;
+  line-height: 75px;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.header__one-link:hover {
+  font-size: 26px;
+}

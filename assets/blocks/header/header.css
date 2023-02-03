@@ -1,0 +1,12 @@
+@import url(header__navigation/header__navigation.css);
+@import url(header__contact-us-link/header__contact-us-link.css);
+@import url(header__link-wrapper/header__link-wrapper.css);
+@import url(header__one-link/header__one-link.css);
+
+.header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
