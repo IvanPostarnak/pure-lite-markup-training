@@ -1,0 +1,7 @@
+@import url(five-star-rating__star/five-star-rating__star.css);
+
+.five-star-rating {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+.five-star-rating__star {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-image: url(five-star-rating__star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
+
+.five-star-rating__star:first-child {
+  margin-left: 0;
+}

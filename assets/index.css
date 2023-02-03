@@ -2,6 +2,7 @@
 @import url(blocks/product-card/product-card.css);
 @import url(blocks/product-card/product-card--second-slide.css);
 @import url(blocks/product-card/product-card--formated-vertical.css);
+@import url(blocks/five-star-rating/five-star-rating.css);
 @import url(blocks/amount-controller/amount-controller.css);
 
 :root {
@@ -42,7 +43,7 @@
 }
 
 /* block FIVE-STAR-RATING */
-
+/* 
 .five-star-rating {
   display: inline-block;
   margin: 0;
@@ -61,7 +62,7 @@
 
 .five-star-rating__star:first-child {
   margin-left: 0;
-}
+} */
 
 /* block WHITE-FRAME */
 
