@@ -5,6 +5,7 @@
 @import url(blocks/five-star-rating/five-star-rating.css);
 @import url(blocks/customer-review/customer-review.css);
 @import url(blocks/header/header.css);
+@import url(blocks/logo/logo.css);
 @import url(blocks/amount-controller/amount-controller.css);
 
 :root {
@@ -72,21 +73,6 @@
   display: block;
   font-size: 59.04px;
   line-height: 1;
-}
-
-/* block LOGO */
-
-.logo {
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.logo--header-margin {
-  margin-right: 60px;
 }
 
 /* INTRO-SLIDE */
