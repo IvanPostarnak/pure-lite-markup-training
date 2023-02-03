@@ -724,6 +724,7 @@
   align-items: space-between;
   background-color: inherit;
   flex-wrap: wrap;
+  z-index: var(--top-layer);
 }
 
 /* SIXTH-SLIDE */
@@ -1009,4 +1010,20 @@
   background-image: url(img/slide_3_scratch_2.png);
   bottom: 10px;
   right: 68px;
+}
+
+.scratch-1--fifth-slide {
+  width: 521px;
+  height: 115px;
+  background-image: url(img/slide_5_scratch_1.png);
+  top: 0px;
+  right: 0px;
+}
+
+.scratch-2--fifth-slide {
+  width: 235px;
+  height: 276px;
+  background-image: url(img/slide_5_scratch_2.png);
+  bottom: 10px;
+  left: 0px;
 }
