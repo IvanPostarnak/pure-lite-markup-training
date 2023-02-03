@@ -781,6 +781,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: var(--top-layer);
 }
 
 .seventh-slide__reviews {
@@ -1026,4 +1027,28 @@
   background-image: url(img/slide_5_scratch_2.png);
   bottom: 10px;
   left: 0px;
+}
+
+.scratch-1--seventh-slide {
+  width: 135px;
+  height: 200px;
+  background-image: url(img/slide_7_scratch_2.png);
+  top: 10px;
+  left: 0px;
+}
+
+.scratch-2--seventh-slide {
+  width: 175px;
+  height: 385px;
+  background-image: url(img/slide_7_scratch_2.png);
+  top: 265px;
+  right: 0px;
+}
+
+.scratch-3--seventh-slide {
+  width: 527px;
+  height: 86px;
+  background-image: url(img/slide_7_scratch_3.png);
+  bottom: 0px;
+  left: 215px;
 }
